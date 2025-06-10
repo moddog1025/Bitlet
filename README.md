@@ -73,7 +73,7 @@ pip install -r requirements.txt
 ### 4. Launch in Dev Mode
 
 ```bash
-python src/bitlet_core/main.py
+python src/main.py
 ```
 
 - On first run, Bitlet will prompt you to choose a cloud folder.
@@ -82,21 +82,16 @@ python src/bitlet_core/main.py
 
 ---
 
-## 🧠 How It Works
+## 🧪 Hotkeys (Default)
 
-Bitlet uses your clipboard and keypresses to trigger file/text transfers:
-
-- **Clipboard content** → `TextBit.txt` (for text) or raw file (for files)
-- Automatically stored in a shared folder of your choice
-- Another device running Bitlet (or an iOS Shortcut) can fetch it instantly
-
-No login, no accounts, no fluff — just fast, direct sharing via your existing cloud ecosystem.
+| Hotkey             | Action                     |
+|--------------------|-----------------------------|
+| `Ctrl + Alt + Z`   | Transfer current clipboard  |
+| `Ctrl + Shift + Z` | Fetch latest Bitlet file/text |
 
 ---
 
-
-**📦 Note:** After a Bit is fetched using the hotkey, Bitlet automatically moves it from the `BitBox/` folder to `BitArchive/` to keep your shared folder clean and prevent duplicate transfers.
-## 📁 File Structure
+## 📁 Project Structure
 
 ```
 bitlet/
