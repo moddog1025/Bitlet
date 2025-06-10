@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bitlet"
+version = "0.1.0-dev"
+description = "Bitlet is a clipboard and file transfer tool for Windows and iOS devices."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+authors = [
+  { name = "Cooper Petit" }
+]
+
+dependencies = [
+  "keyboard",
+  "pywin32"
+]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
