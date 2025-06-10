@@ -44,7 +44,7 @@ pip install -r requirements.txt
 ### Dev Entry Point
 
 ```bash
-python src/bitlet_core/main.py
+python src/main.py
 ```
 
 > First-time use will prompt for your cloud directory and create config files in:
