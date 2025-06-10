@@ -56,8 +56,8 @@ python src/bitlet_core/main.py
 
 | Hotkey             | Action                     |
 |--------------------|-----------------------------|
-| `Ctrl + Alt + Z`   | Transfer current clipboard  |
-| `Ctrl + Shift + Z` | Fetch latest Bitlet file/text |
+| `Ctrl + Alt + Z`   | Transfer current clipboard as a Bit  |
+| `Ctrl + Shift + Z` | Fetch latest incoming TextBit or FileBit  |
 
 ---
 
